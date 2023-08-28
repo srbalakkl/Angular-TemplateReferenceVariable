@@ -35,6 +35,12 @@ then we need to specify which directive to use for variable <br><br>
 </p>
 <app-customer-list #customerListComponent="cusList"></app-customer-list>
 
+<p>Note: <br>
+  The scope of the template reference variable is the template within which it is declared.
+  You cannot access it outside the template.
+  E.g: We can't access it from customer list component.
+</p>
+
 
 
 
